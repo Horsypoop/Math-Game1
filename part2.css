@@ -1,0 +1,48 @@
+body
+{
+	background: lightgreen;
+}
+#player1_getname{
+    color:red;
+}
+#player1_score{
+    color:red;
+}
+
+#player2_getname{
+    color:blue;
+}
+
+#player2_score{
+    color:blue;
+}
+
+#player_question_or_answer1{
+    color:red;
+}
+
+#player_question_or_answer2{
+    color:blue;
+}
+
+#Question_Answer1{
+    color: purple;
+}
+
+#Question_Answer2{
+    color: orange;
+}
+
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+    #player1_getname , #player2_getname
+{
+	display: inline-block;
+}

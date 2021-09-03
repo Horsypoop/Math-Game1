@@ -1,0 +1,104 @@
+<html>
+    
+    <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="part2.css">
+
+        <script src="Part2.js"></script>
+    </head>
+    <body>
+
+
+
+        <center>
+        <h2 style="color: white;">Math!</h2>
+    </center>
+        <h3 id="player1_getname">Player1</h3>
+        <script>
+            var score1=localStorage.getItem("player1_name");
+document.getElementById("player1_getname").innerHTML = score1;
+</script>
+<span id="player1_score"></span>
+<div class="player2">
+        <h3 id="player2_getname">Player2</h3>
+        <script>
+            var score2=localStorage.getItem("player2_name");
+document.getElementById("player2_getname").innerHTML = score2;
+</script>
+        <span id="player2_score"></span>
+
+
+
+
+
+
+        <span class="Question_Answer_span">
+            <h3 id="player_question_or_answer1">Player1</h3>
+
+            <script>
+                var score3=localStorage.getItem("player1_name");
+    document.getElementById("player_question_or_answer1").innerHTML = score3;
+    </script>
+
+            <h3 id="Question_Answer1">-Question</h3>
+
+
+		<h3 id="player_question_or_answer2">Player2-Answer</h3>
+        <script>
+            var score4=localStorage.getItem("player2_name");
+document.getElementById("player_question_or_answer2").innerHTML = score4;
+</script>
+        <h3 id="Question_Answer2">-Answer</h3>
+</span>
+
+
+
+<br>
+		<br>
+        <br>
+        <br>
+		<br>
+        <br>
+
+<br>
+		<br>
+        <br>
+    
+
+<br>
+		<br>
+        <br>
+
+		<br>
+		<br>
+        <br>
+        <center>
+
+
+            <div id="output" class="col-lg-6"></div>
+
+<br>
+
+		<label>Send You Math Problem: <b style="color: red">Put any Math Problem You Want! And Don't Let Your Opponent See To Make It Harder!</b></label>
+
+		<br>
+        <br>
+        <div id="player_2_" class="center">
+            <label>Choose Two Numbers For Your Opponent</label>
+            <input type="text" id="Number_1" class="form-control" placeholder="Number 1">
+            <br>
+            <input type="text" id="Number_2" class="form-control" placeholder="Number 2">
+            <br>
+            <button CLASS="btn btn-primary" onclick="Numbers()" style="width:30%">Make Math Equation</button>
+            </div>
+    </center>
+
+
+
+    
+    </body>
+</html>
